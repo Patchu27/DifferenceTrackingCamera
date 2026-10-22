@@ -1,0 +1,7 @@
+//Bash compile and run command
+g++ --std=c++20 -c main.cpp -I/usr/include/SFML-3.0.2/include -I/usr/include/gstreamer-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include && g++ main.o -o App -L/usr/include/SFML-3.0.2/lib -lsfml-graphics -lsfml-window -lsfml-system -lgstreamer-1.0 -lgstapp-1.0 -lglib-2.0 -lgobject-2.0 -lgthread-2.0 && export LD_LIBRARY_PATH=/usr/include/SFML-3.0.2/lib && ./App
+
+//Controls
+J+K and N+M to adjust hue and luminance thresholds
+Left click to select key color
+
